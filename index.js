@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3001
+const port = process.env.PORT
 const mysql = require('promise-mysql')
 const {query} = require("express");
 const cors = require('cors');
